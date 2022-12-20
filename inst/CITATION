@@ -1,0 +1,14 @@
+citHeader("To cite SITCOR in publications use:")
+
+bibentry(
+  bibtype  = "Article",
+  title    =  "Sliced Independence Test",
+  author   = as.person("Yilin Zhang [aut], Canyi Chen [aut], Liping Zhu [aut]"),
+  year     = "2022",
+  journal  = "Statistica Sinica",
+  key      = "Zhang2022SIT",
+  doi      = "10.5705/ss.202021.0203",
+  note     = "In press",
+  textVersion = paste(
+  "Zhang, Yilin, Canyi Chen, and Liping Zhu. 2022.","Sliced Independence Test.","Statistica Sinica. https://doi.org/10.5705/ss.202021.0203.")
+)
