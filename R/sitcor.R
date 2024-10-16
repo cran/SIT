@@ -156,7 +156,7 @@ sitcor <- function(x,
       return(list(
         sitcor = sitcor,
         sd = sqrt(var1),
-        pval = 1 - pnorm(sqrt(n) * sitcor / sqrt(var1))
+        pval = 1 - pnorm(sitcor / sqrt(var1))
       ))
     } else {
       # Arguments checking
@@ -191,7 +191,7 @@ sitcor <- function(x,
         return(list(
           sitcor = sitcor,
           sd = sqrt(var1),
-          pval = 1 - pnorm(sqrt(n) * sitcor / sqrt(var1))
+          pval = 1 - pnorm(sitcor / sqrt(var1))
         ))
 
 
